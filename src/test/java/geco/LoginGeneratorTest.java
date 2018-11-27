@@ -48,4 +48,12 @@ public class LoginGeneratorTest {
 
     }
 
+
+    @Test
+    public void ctx() {
+
+        assertEquals(lg1.generateLoginForNomAndPrenom("Du","Paul"),"PDU");
+
+    }
+
 }
